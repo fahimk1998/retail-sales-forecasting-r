@@ -51,25 +51,26 @@ SARIMA achieved approximately a **64% reduction in RMSE** compared with the nons
 
 The selected seasonal model was ARIMA(1,0,0)(2,1,2)[12] with drift.
 
+
 # Visualizations
 
-# Historical Retail Sales
+# 1. Historical Retail Sales
 
 ![Historical Retail Sales](figures/retail_sales_trend.png)
 
-# Seasonal Patterns
+# 2. Seasonal Patterns
 
 ![Monthly Seasonal Patterns](figures/retail_sales_seasonality.png)
 
-# Actual vs. Forecasted Sales
+# 3. Actual vs. Forecasted Sales
 
 ![Forecast Model Comparison](figures/forecast_model_comparison.png)
 
-# Six-Month SARIMA Forecast
+# 4. Six-Month SARIMA Forecast
 
 ![Final SARIMA Forecast](figures/final_sarima_forecast.png)
 
-# Six-Month Forecast Results
+
 
 | Month | Forecast (Billion USD) |
 |---|---:|
